@@ -1,0 +1,24 @@
+# ---------- Core: LangGraph / LangChain ----------
+langgraph==1.2.0
+langgraph-checkpoint-sqlite==3.1.0
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# ---------- LLM + Embeddings (Google Gemini) ----------
+langchain-google-genai
+
+# ---------- Tools ----------
+langchain-tavily        # web search tool
+requests                # weather + stock price API calls
+
+# ---------- RAG (PDF + vector store) ----------
+faiss-cpu
+pypdf
+
+# ---------- Frontend ----------
+streamlit>=1.43         # chat_input(accept_file=True) needs >= 1.43
+
+# ---------- Utilities ----------
+python-dotenv==1.2.2
+pydantic==2.10.4
